@@ -15,6 +15,7 @@ locales:
     - ja_JP  # Japanese (Japan)
     - ka # Georgian
     - pl  # Polish
+    - pt_BR  # Portuguese (Brazil)
     - sv  # Swedish
     - sw  # Swahili
     - tr_TR  # Turkish (Turkey)
