@@ -26,11 +26,12 @@ WORKDIR /openedx/edx-platform
 # Install python requirements
 RUN virtualenv ../venv
 ENV PATH /openedx/venv/bin:${PATH}
-RUN pip install -r requirements/edx/development.txt
+RUN pip install "setuptools<45"
+RUN pip2 install -r requirements/edx/development.txt
 
 # Install alternative edx-i18n-tools to fix issues
 # https://github.com/edx/i18n-tools/pull/80
-RUN pip install git+https://github.com/overhangio/i18n-tools.git@overhangio/v0.4.6
+RUN pip2 install git+https://github.com/overhangio/i18n-tools.git@overhangio/v0.4.6
 
 COPY ./locale.py ./lms/envs/
 ENV DJANGO_SETTINGS_MODULE lms.envs.locale
