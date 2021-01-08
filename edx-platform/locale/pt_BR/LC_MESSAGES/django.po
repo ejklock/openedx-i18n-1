@@ -144,7 +144,7 @@
 # Nayse Hillesheim <nayse.hillesheim@gmail.com>, 2020
 # Angela Amaro <angelasimei@gmail.com>, 2020
 # Anderson Franca <anderson.frca@gmail.com>, 2020
-# Evaldo klock <neto.nemesis@gmail.com>, 2020
+# Evaldo Klock <neto.nemesis@gmail.com>, 2020
 # Martin Horst <horst.mr@gmail.com>, 2020
 # Piero Lunelli, 2020
 # Marco Túlio Pires <mtrpires@outlook.com>, 2020
@@ -167,6 +167,8 @@
 # Monica Farias <monifar.tp@gmail.com>, 2020
 # Victor Oliveira <victor@codebit.com.br>, 2020
 # Renato Monteiro da Silva <renato_city@yahoo.com.br>, 2020
+# Henrique Luis Baesa <henriquebaesa@gmail.com>, 2020
+# Emmanuel Halbout <emmanuelhalbout@neojiba.org>, 2020
 # 
 msgid ""
 msgstr ""
@@ -174,7 +176,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2020-06-02 20:41+0000\n"
 "PO-Revision-Date: 2020-05-28 18:04+0000\n"
-"Last-Translator: Renato Monteiro da Silva <renato_city@yahoo.com.br>, 2020\n"
+"Last-Translator: Emmanuel Halbout <emmanuelhalbout@neojiba.org>, 2020\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/open-edx/teams/6205/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5458,6 +5460,8 @@ msgid ""
 "© {org_name}.  All rights reserved except where noted.  edX, Open edX and "
 "their respective logos are registered trademarks of edX Inc."
 msgstr ""
+"© {org_name}. Todos os direitos reservados exceto quando específicado. edX, "
+"Open edX e seus respectivos logotipos são marcas registradas da edX Inc."
 
 #. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 #. Translators: 'Open edX' is a trademark, please keep this untranslated.
@@ -12364,6 +12368,11 @@ msgid ""
 "process your personal data in accordance                   with the "
 "{privacy_policy_link_start}Privacy Policy{privacy_policy_link_end}."
 msgstr ""
+"Criando sua conta, você concorda com os                   "
+"{terms_of_service_link_start}{terms_of_service}{terms_of_service_link_end}"
+"                   e confirma que o {platform_name} e cada membro processa "
+"seus dados pessoais de acordo                   com a "
+"{privacy_policy_link_start}Privacy Policy{privacy_policy_link_end}."
 
 #. Translators: "Terms of service" is a legal document users must agree to
 #. in order to register a new account.
@@ -12499,7 +12508,7 @@ msgstr ""
 #: openedx/features/calendar_sync/ics.py
 #, python-brace-format
 msgid "{assignment} is due for {course}."
-msgstr ""
+msgstr "{assignment} é devido para {course}."
 
 #: openedx/features/calendar_sync/plugins.py
 msgid "Calendar Sync"
@@ -13935,7 +13944,7 @@ msgstr "Discussões"
 
 #: lms/djangoapps/discussion/templates/discussion/discussion_private_fragment.html
 msgid "Private Discussion"
-msgstr ""
+msgstr "Discussão Privada"
 
 #: lms/djangoapps/discussion/templates/discussion/discussion_private_fragment.html
 msgid ""
@@ -14257,7 +14266,7 @@ msgstr "Falha de autenticação externa"
 
 #: lms/templates/footer.html
 msgid "organization logo"
-msgstr ""
+msgstr "logo da organização"
 
 #: lms/templates/forgot_password_modal.html
 msgid ""
@@ -14335,7 +14344,7 @@ msgstr "Bem-vindo a {platform_name}"
 #. untranslated. See http://open.edx.org for more information.
 #: lms/templates/index_overlay.html
 msgid "It works! Powered by Open edX{registered_trademark}"
-msgstr ""
+msgstr "Funciona! Desenvolvido por Open edX{registered_trademark}"
 
 #: lms/templates/invalid_email_key.html
 msgid "Invalid email change key"
@@ -14659,7 +14668,7 @@ msgstr "ex.: seu nome (para certificados)"
 
 #: lms/templates/signup_modal.html
 msgid "{start_li}Welcome{end_li} {name}"
-msgstr ""
+msgstr "{start_li}Bem-Vindo/a{end_li} {name}"
 
 #: lms/templates/signup_modal.html
 #: themes/stanford-style/lms/templates/register-shib.html
@@ -15980,7 +15989,7 @@ msgstr ""
 #: lms/templates/bulk_email/confirm_unsubscribe.html
 #: lms/templates/bulk_email/unsubscribe_success.html
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Cancelar subscrição"
 
 #: lms/templates/bulk_email/confirm_unsubscribe.html
 msgid "confirm unsubscribe from {org} {course} emails."
@@ -16803,6 +16812,7 @@ msgstr "Este conteúdo é classificado"
 #: lms/templates/courseware/course_about.html
 msgid "An error has occurred. Please ensure that you are logged in to enroll."
 msgstr ""
+"Ocorreu um erro. Certifique-se de que você está conectado para se inscrever."
 
 #: lms/templates/courseware/course_about.html
 msgid "An error occurred. Please try again later."
@@ -16984,7 +16994,7 @@ msgstr "Informações do curso {course.display_number_with_default}"
 
 #: lms/templates/courseware/dates.html
 msgid "Important Dates"
-msgstr ""
+msgstr "Datas Importantes"
 
 #: lms/templates/courseware/dates.html
 msgid "Today"
@@ -17215,7 +17225,7 @@ msgstr "Visualizar avaliação no Studio"
 
 #: lms/templates/courseware/progress.html
 msgid "Course Progress for '{username}' ({email})"
-msgstr ""
+msgstr "Progresso do Curso para '{username}' ({email})"
 
 #: lms/templates/courseware/progress.html
 msgid "View Certificate"
@@ -19734,6 +19744,10 @@ msgid ""
 "always taken; you cannot use this tool to make an assignment due earlier for"
 " a particular student."
 msgstr ""
+"Nesta seção, é possível prorrogar o prazo de entrega de unidades específicas"
+" para cada aluno. Observe que a data mais recente é a oficial, não é "
+"possível utilizar esta ferramenta para fazer com que um trabalho tenha uma "
+"data de entrega anterior para um determinado aluno."
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 msgid ""
@@ -19748,7 +19762,7 @@ msgstr "E-mail ou nome de usuário do aluno"
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 msgid "Choose the graded subsection:"
-msgstr ""
+msgstr "Escolha a subseção avaliada:"
 
 #. Translators: "format_string" is the string MM/DD/YYYY HH:MM, as that is the
 #. format the system requires.
@@ -19777,12 +19791,16 @@ msgid ""
 "Here you can see what extensions have been granted on particular subsection "
 "or for a particular student."
 msgstr ""
+"Aqui é possível ver quais extensões foram avaliadas em subseção específica "
+"para um determinado aluno."
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 msgid ""
 "Choose a graded subsection and click the button to obtain a list of all "
 "students who have extensions for the given subsection."
 msgstr ""
+"Escolha uma unidade avaliada e clique no botão para obter uma lista de todos"
+" os alunos que têm prorrogações para a entrega desta subseção."
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 msgid "List all students with due date extensions"
@@ -19806,6 +19824,10 @@ msgid ""
 "on a particular subsection. This will revert the due date for the student "
 "back to the problem's original due date."
 msgstr ""
+"Ao redefinir a data de entrega de um problema a prorrogação da data de "
+"entrega é cancelada automaticamente para o escolhido aluno em uma subseção "
+"específica. Isto fará com que o prazo de entrega original do problema para o"
+" aluno retorne à data original."
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 msgid "Reason for reset"
@@ -21312,6 +21334,8 @@ msgid ""
 "The page that you were looking for was not found. Go back to the "
 "{link_start}homepage{link_end} ."
 msgstr ""
+"A página procurada não foi encontrada. Volte para a {link_start}página "
+"inicial{link_end}"
 
 #: lms/templates/static_templates/about.html
 #: lms/templates/static_templates/blog.html
@@ -21368,6 +21392,7 @@ msgstr "No momento, os servidores do {platform_name} estão inativos"
 msgid ""
 "Our staff is currently working to get the site back up as soon as possible. "
 msgstr ""
+"Nossa equipe está trabalhando para restaurar o site o mais rápido possível."
 
 #: lms/templates/static_templates/server-error.html
 msgid "There has been a 500 error on the {platform_name} servers"
@@ -21375,7 +21400,7 @@ msgstr "Ocorreu um erro 500 nos servidores do {platform_name}"
 
 #: lms/templates/static_templates/server-error.html
 msgid "Please wait a few seconds and then reload the page."
-msgstr ""
+msgstr "Por favor, aguarde alguns segundos e recarregue a página."
 
 #: lms/templates/static_templates/server-overloaded.html
 msgid "Currently the {platform_name} servers are overloaded"
@@ -21732,7 +21757,7 @@ msgstr "Alguns Direitos Reservados"
 
 #: openedx/features/course_experience/templates/course_experience/course-dates-fragment.html
 msgid "Upcoming Dates"
-msgstr ""
+msgstr "Próximas Datas"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Goal: "
@@ -21964,7 +21989,7 @@ msgstr ""
 
 #: themes/edx.org/lms/templates/dashboard.html
 msgid "Get Started"
-msgstr ""
+msgstr "Começar"
 
 #: themes/edx.org/lms/templates/footer.html
 msgid "Page Footer"
@@ -21980,7 +22005,7 @@ msgstr "Conectar"
 
 #: themes/edx.org/lms/templates/footer.html
 msgid "© {year} edX Inc. All rights reserved."
-msgstr ""
+msgstr "© {year} edX Inc. Todos os direitos reservados."
 
 #: themes/edx.org/lms/templates/certificates/_about-accomplishments.html
 msgid "About edX Verified Certificates"
@@ -22061,6 +22086,8 @@ msgid ""
 "All rights reserved except where noted. edX, Open edX and the edX and Open "
 "edX logos are registered trademarks of edX Inc."
 msgstr ""
+"Todos os direitos reservados exceto quando especificado. edX, Open edX e "
+"seus respectivos logotipos são marcas registradas da edX Inc."
 
 #: themes/edx.org/lms/templates/course_modes/choose.html
 msgid ""

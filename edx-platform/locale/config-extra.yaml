@@ -1,4 +1,4 @@
-# Configuration for i18n workflow.
+  # Configuration for i18n workflow.
 
 root_dir: /openedx/edx-platform
 
@@ -13,9 +13,9 @@ locales:
     - hr  # Croatian
     - id  # Indonesian
     - ja_JP  # Japanese (Japan)
+    - pt_BR
     - ka # Georgian
     - pl  # Polish
-    - pt_BR  # Portuguese (Brazil)
     - sv  # Swedish
     - sw  # Swahili
     - tr_TR  # Turkish (Turkey)
